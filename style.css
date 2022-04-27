@@ -1,0 +1,204 @@
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Montserrat:wght@500&family=Yanone+Kaffeesatz&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #1c1a19;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+}
+
+.section {
+  background-image: url("images/Illustration-header.png");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: #3e3c3c;
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  width: 100%;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+.menu .item {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.nav-bar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  border-bottom: 2px solid #84b1ff;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  padding: 100px;
+}
+
+.content {
+  display: inline;
+  z-index: 10;
+  max-width: 600px;
+  color: white;
+  font-size: 8vh;
+  padding-left: 20px;
+}
+
+.home-img {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  height: 110%;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 400;
+  color: #f55800;
+  font-family: "Crete round", sans-serif;
+  line-height: 81.5px;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 32px;
+  line-height: 44px;
+}
+
+.soft {
+  font-size: 22px;
+}
+
+p {
+  margin: 12px 0;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.icons ul {
+  position: absolute;
+  list-style-type: none;
+  top: 50%;
+  left: 10px;
+  width: 60px;
+  display: inline-block;
+  transform: scale(1.2);
+}
+
+.icons li .fa {
+  color: white;
+  padding: 5px;
+}
+
+.toggle {
+  display: none;
+}
+
+@media all and (max-width: 1068px) {
+  .container {
+    height: 77px;
+    width: 77px;
+    top: 10px;
+    left: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700, bolder;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    position: relative;
+    height: 48px;
+    width: 100%;
+  }
+
+  .nav-bar .container {
+    width: 90%;
+    height: 40%;
+  }
+
+  .toggle {
+    display: block;
+    position: absolute;
+    right: 14px;
+    top: 12px;
+    margin-right: 24px;
+  }
+
+  .menu {
+    list-style-type: none;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    color: #f55800;
+    display: none;
+    margin-left: 24px;
+  }
+
+  .menu .item {
+    display: block;
+    border-top: 2px solid #fff;
+    margin: 24px;
+  }
+
+  .section {
+    background-image: url("images/Illustration-header.png");
+    background-repeat: no-repeat;
+    background-position: bottom 90px right;
+    background-size: 14vh;
+  }
+
+  .icons ul {
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 28px;
+    margin-top: 205px;
+  }
+
+  section {
+    padding: 100px 24px;
+  }
+
+  h1 {
+    font-family: "Crete Round", sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+  }
+
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700, bold;
+    line-height: 32px;
+  }
+
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
