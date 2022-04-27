@@ -2,7 +2,7 @@
 
 # Portfolio Project
 
-> Description the project.
+> My portfolio
 
 
 ## Built With
