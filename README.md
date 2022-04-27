@@ -1,15 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio Project
 
 > Description the project.
 
 
 ## Built With
 
-- Major languages
+- HTML , CSS
 - Frameworks
-- Technologies used
+- VS CODE
 
 ## Live Demo (if available)
 
@@ -25,32 +25,27 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+To run this project you will need, 1)Visual Studio Code. 2) knowlegde of HTML & CSS
+
+
 
 ### Setup
+To copy this project please do the following. 1)Open this project. 2) Navigate to code 3) Then download the files
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+1) install VS code
+2)Install webint and styleint
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Thokozani Ngubane**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: @MxoDevops
+- Twitter: @Godecuy
+- LinkedIn: Thokozani Ngubane
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,9 +59,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse for the amazing template
 
 ## 📝 License
 
